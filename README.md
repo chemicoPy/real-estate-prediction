@@ -47,18 +47,18 @@ The requriements were gathered from the problem and formally defined.
 * Operating system: Windows, Mac, Linux
 
 ## 2. Gather data, analyze and build models
-We found an online kaggle challange that contained the data we needed to solve the problem.
-Data was downloaded from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
-We broke everything into the following steps
-We started by loading data and packages we needed for the research.We then
+Using a common dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+Steps involved:
+Loading data and packages we needed for the research. I then
 analyzed the data to understand the relationships between the price and other
-features. We cleaned the data and using some domain knowlegde replaced some
+features, cleaned the data and using some domain knowlegde replaced some
 missing values. The next step was feature tranformation to make the data
-compatible with our models. We then trained our model and started perfoming
+compatible with the models. Then trained the model and started perfoming
 some predictions.
 
 ## 3. Build web backend API to use model
-Using python and the flask web framework we built a web API the takes advantage of our model.
+Using python and the flask web framework, i built a web API the takes advantage of the model.
 The API comsumer can make a request containing JSON map of features and their values. The
 flask server recieves this request and sends a response containing the predicted price.
 
@@ -66,11 +66,11 @@ flask server recieves this request and sends a response containing the predicted
 The User interface of the application was built using HTML, CSS3 and javascript.
 
 ## 7. Intergrate both frontend and backend
-Using the javascript, we send data from the forms on the webpage to the flask server
+Using the javascript, data from the forms on the webpage to the flask server is sent
 and the server sends a reponse, which is a prediction of the price matching those features
 
 ## 8. Test the entire application
-We run multiple tests fixed bugs in the code.
+Run multiple tests fixed bugs in the code.
 
 # 3. Results and discussions
 ## Screenshot of the application
@@ -79,7 +79,7 @@ We run multiple tests fixed bugs in the code.
 ![Third screenshot](images/screenshot-04.png)
 ![Fourth screenshot](images/screenshot-03.png)
 
-We were able to build a web application that can predict the price of a house given certain features. The application runs in the browser and talks to a flask server that is taking data and passing it to a machine learning model.
+I was able to build a web application that can predict the price of a house given certain features. The application runs in the browser and talks to a flask server that is taking data and passing it to a machine learning model.
 
 # 4. Conclusion
 There are real world problems that can be solved with machine learning. Some of these solutions can take real world data and make very accurate predictions that can be useful to our daily lives. Users can leverage the power of machine learning without being data scientist when easy to use applications are built around some of these complicated models.
