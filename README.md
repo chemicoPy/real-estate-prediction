@@ -38,7 +38,7 @@ The requriements were gathered from the problem and formally defined.
 * Assign unique label every prediction
 * Save recent predictions
 
-### Operating enviroment
+### Operating environment
 * client/server system (Web)
 * client: Web browers
 * server: Python/Flask
@@ -84,7 +84,7 @@ I was able to build a web application that can predict the price of a house give
 # 4. Conclusion
 There are real world problems that can be solved with machine learning. Some of these solutions can take real world data and make very accurate predictions that can be useful to our daily lives. Users can leverage the power of machine learning without being data scientist when easy to use applications are built around some of these complicated models.
 
-# 5. Refrences
+# 5. References
 
 Pedro Marcelino, *Comprehensive data exploration with Python*, Kaggle,  February 2017. Accessed on: April 19, 2021. [Online]
 Available: [https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
