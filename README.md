@@ -1,9 +1,9 @@
 # 0. Introduction
 This project focuses on building a web application to predict house prices for house buyers and house sellers.
 
-The value of a house is more than just location and square footage. Houses have several features that make up it's value.We are going to take advantage of all the features to make accurate predictions about the price of any house.
+The value of a house is more than just location and square footage. Houses have several features that make up its value; Taking advantage of all the features to make accurate predictions about the price of any house.
 
-We developed our application using a series of logical steps to ensure that users can easily use the application and make accurate predictions.
+The application follows a series of logical steps to ensure that users can easily use the application and make accurate predictions.
 
 0) Introduction
 1) Problem definition
@@ -50,7 +50,7 @@ The requriements were gathered from the problem and formally defined.
 Using a common dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 
 Steps involved:
-Loading data and packages we needed for the research. I then
+Loading data and packages needed for the research. I then
 analyzed the data to understand the relationships between the price and other
 features, cleaned the data and using some domain knowlegde replaced some
 missing values. The next step was feature tranformation to make the data
