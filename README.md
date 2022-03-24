@@ -13,7 +13,7 @@ We developed our application using a series of logical steps to ensure that user
 5) Refrences
 
 # 1. Problem definition
-We used a simple case study to understand the problem. There are two clients at the same time without a conflict of intreset.
+Using a simple case study to understand the problem. There are two clients at the same time without a conflict of intreset.
 
 The house buyer, a client that wants to buy their dream home. They have some locations in mind. Now, the client wants to know if the house price matches the value. With the application, they can understand which features are influence the final price. If the final price matches the value predicted by the application the can ensure they are getting a fair price.
 
